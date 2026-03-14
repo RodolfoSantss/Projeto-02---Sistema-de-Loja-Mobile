@@ -27,7 +27,7 @@ export default function LoginScreen({ setScreen, setUser }) {
       return
     }
 
-    if (trimmedUsername.toLowerCase() === "admin" && trimmedPassword === "123") {
+    if (trimmedUsername.toLowerCase() === "samuel" && trimmedPassword === "prof") {
       setScreen("admin")
       return
     }
